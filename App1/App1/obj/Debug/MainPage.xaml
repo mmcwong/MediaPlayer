@@ -7,20 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <AppBarButton x:ConnectionId='1' Icon="Play" Label="Play"                           >            
+        <MediaElement x:ConnectionId='1'  x:Name="_mElement" Visibility="Collapsed"                                  AudioCategory="BackgroundCapableMedia" />
+        <AppBarButton x:ConnectionId='2' Icon="Shuffle" Label="Shuffle"                            Margin="0,79,0,0">
         </AppBarButton>
-        <AppBarButton x:ConnectionId='2' Icon="Pause" Label="Pause"                            Margin="59,0,0,0">
+        <AppBarButton x:ConnectionId='3' Icon="Play" Label="Play"                           >            
         </AppBarButton>
-        <AppBarButton x:ConnectionId='3' Icon="Stop" Label="Stop"                            Margin="122,0,0,0" RenderTransformOrigin="0.823,0.492">
+        <AppBarButton x:ConnectionId='4' Icon="Pause" Label="Pause"                            Margin="59,0,0,0">
+        </AppBarButton>
+        <AppBarButton x:ConnectionId='5' Icon="Stop" Label="Stop"                            Margin="122,0,0,0" RenderTransformOrigin="0.823,0.492">
         </AppBarButton>
 
-        <AppBarButton x:ConnectionId='4' Icon="Previous" Label="Prev"                            Margin="183,0,0,0" RenderTransformOrigin="0.823,0.492">
+        <AppBarButton x:ConnectionId='6' Icon="Previous" Label="Prev"                            Margin="183,0,0,0" RenderTransformOrigin="0.823,0.492">
         </AppBarButton>
         
-        <AppBarButton x:ConnectionId='5' Icon="Next" Label="Next"                            Margin="243,0,0,0" RenderTransformOrigin="0.823,0.492">
+        <AppBarButton x:ConnectionId='7' Icon="Next" Label="Next"                            Margin="243,0,0,0" RenderTransformOrigin="0.823,0.492">
         </AppBarButton>
-
+        
+        <Slider x:ConnectionId='8' Margin="342,19,924,693" Value ="100" Minimum ="0" Maximum ="100"                                   ></Slider>
 
     </Grid>
 </Page>

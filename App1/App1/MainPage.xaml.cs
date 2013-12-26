@@ -29,7 +29,6 @@ namespace App1
         List<String> SUPPORTED_FILES;
         ObservableCollection<Song> mySongs;
         List<StorageFile> mFiles;
-        MediaElement mElement;
         int mIndex;
         bool mIsPaused;
 
@@ -44,7 +43,7 @@ namespace App1
 
             mySongs = new ObservableCollection<Song>();
             mFiles = new List<StorageFile>();
-            mElement = new MediaElement();
+
 
             mIndex = 0;
             mIsPaused = false;
@@ -52,27 +51,32 @@ namespace App1
             ReadSongs();
        }
 
+        private void mElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            NextSong();
+        }
+
         async private void PlaySong ()
         {
             if (!mIsPaused)
             {
                 StorageFile file = mFiles[mIndex];
                 var stream = await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
-                mElement.SetSource(stream, file.ContentType);
+                _mElement.SetSource(stream, file.ContentType);
             }
-                mElement.Play();
+                _mElement.Play();
                 mIsPaused = false;
         }
 
         private void StopSong ()
         {
-            mElement.Stop();
+            _mElement.Stop();
         }
 
         private void PauseSong()
         {
             mIsPaused = true;
-            mElement.Pause();
+            _mElement.Pause();
         }
 
         private void NextSong()
@@ -92,6 +96,12 @@ namespace App1
             }
             PlaySong();
 
+        }
+
+        private void ShuffleSongs()
+        {
+            Random rnd = new Random();
+            mFiles = mFiles.OrderBy(item => rnd.Next()).ToList();
         }
         async private void ReadSongs() 
         {
@@ -132,6 +142,11 @@ namespace App1
             {
                 PrevSong();
             }
+
+            else if (button.Label == "Shuffle")
+            {
+                ShuffleSongs();
+            }
         }
 
         public ObservableCollection<Song> songs 
@@ -144,6 +159,17 @@ namespace App1
             private set
             {
                 
+            }
+        }
+
+        private void Slider_ValueChanged(object sender, RangeBaseValueChangedEventArgs e)
+        {
+            Slider slider = sender as Slider;
+            double volume = slider.Value/100.0;
+
+            if (_mElement != null)
+            {
+                _mElement.Volume = volume;
             }
         }
 

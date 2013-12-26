@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>f717260b-5e44-463f-afd0-c4d5c64b288b</PackageIdentityName>
-    <RegisteredManifestChecksum>A75F3CA3C1C0F3EB837516313109EC21FAE4BA86974E759C14333DC1A55C15B0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CE8DE0D2D4684BB98B9A17A19A1D83FD28E5341B45EC43A9C663D5FEE86A9568</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f717260b-5e44-463f-afd0-c4d5c64b288b_1.0.0.0_neutral__9czyjweembe40</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f717260b-5e44-463f-afd0-c4d5c64b288b_9czyjweembe40!App</RegisteredUserModeAppID>
     <RegisteredPackageID>f717260b-5e44-463f-afd0-c4d5c64b288b</RegisteredPackageID>
@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-12-26T04:13:41.411</Modified>
+      <Modified>2013-12-26T06:08:10.601</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2013-12-26T05:19:24.150</Modified>
+      <Modified>2013-12-26T06:33:51.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -51,11 +51,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2013-12-26T05:04:33.556</Modified>
+      <Modified>2013-12-26T06:33:31.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-12-26T04:13:41.311</Modified>
+      <Modified>2013-12-26T06:08:10.473</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

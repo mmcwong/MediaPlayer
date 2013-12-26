@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <MediaElement  x:Name="_mElement" Visibility="Collapsed" MediaEnded="mElement_MediaEnded" AudioCategory="BackgroundCapableMedia" />
+        <AppBarButton Icon="Shuffle" Label="Shuffle" Click="AppBarButton_Click" Margin="0,79,0,0">
+        </AppBarButton>
         <AppBarButton Icon="Play" Label="Play" Click="AppBarButton_Click">            
         </AppBarButton>
         <AppBarButton Icon="Pause" Label="Pause" Click="AppBarButton_Click" Margin="59,0,0,0">
@@ -20,7 +24,8 @@
         
         <AppBarButton Icon="Next" Label="Next" Click="AppBarButton_Click" Margin="243,0,0,0" RenderTransformOrigin="0.823,0.492">
         </AppBarButton>
-
+        
+        <Slider Margin="342,19,924,693" Value ="100" Minimum ="0" Maximum ="100" ValueChanged="Slider_ValueChanged"></Slider>
 
     </Grid>
 </Page>
