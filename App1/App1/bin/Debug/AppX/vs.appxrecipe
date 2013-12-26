@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PHANITA</Machine>
+    <WindowsUser>PuiHung</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f717260b-5e44-463f-afd0-c4d5c64b288b</PackageIdentityName>
+    <RegisteredManifestChecksum>A75F3CA3C1C0F3EB837516313109EC21FAE4BA86974E759C14333DC1A55C15B0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f717260b-5e44-463f-afd0-c4d5c64b288b_1.0.0.0_neutral__9czyjweembe40</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f717260b-5e44-463f-afd0-c4d5c64b288b_9czyjweembe40!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f717260b-5e44-463f-afd0-c4d5c64b288b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=PuiHung</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-26T04:13:41.411</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2013-12-26T05:19:24.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T13:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T13:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T13:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T13:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2013-12-25T23:05:19.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2013-12-26T05:04:33.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\PuiHung\Documents\Visual Studio 2013\Projects\App1\App1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-12-26T04:13:41.311</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
